@@ -1,7 +1,7 @@
 {
-  "name": "react-material",
+  "name": "reactmaterial",
   "version": "0.1.0",
-  "description": "React Material Framework",
+  "description": "The React Material Web Components Library",
   "main": "index.js",
   "scripts": {
     "savor": "react-savor",
