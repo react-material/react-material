@@ -6,6 +6,9 @@ import {
   Link
 } from 'react-router-dom'
 
+import '@material/form-field/dist/mdc.form-field.css'
+import '@material/checkbox/dist/mdc.checkbox.css'
+
 import CheckboxDemo from './demos/checkbox'
 
 const ReactMaterialDemos = () => (
@@ -23,4 +26,4 @@ const ReactMaterialDemos = () => (
 )
 
 
-ReactDOM.render(<ReactMaterialDemos />, document.getElementById('root'));
+ReactDOM.render(<ReactMaterialDemos />, document.getElementById('root'))
