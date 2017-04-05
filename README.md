@@ -6,7 +6,7 @@
 
   <p align="center">
     <a href="https://github.com/react-material/react-material"> <img src="https://img.shields.io/badge/react--material-core-blue.svg"> </a>
-    <a href="https://www.npmjs.com/package/reactmaterial"> <img src="https://img.shields.io/npm/v/react-material.svg"> </a>
+    <a href="https://www.npmjs.com/package/reactmaterial"> <img src="https://img.shields.io/npm/v/reactmaterial.svg"> </a>
     <a href="https://travis-ci.org/react-material/react-material"> <img src="https://travis-ci.org/react-material/react-material.svg?branch=master"> </a>
     <a href="https://codeclimate.com/github/react-material/react-material"> <img src="https://codeclimate.com/github/react-material/react-material/badges/gpa.svg"> </a>
     <a href="https://codeclimate.com/github/react-material/react-material"> <img src="https://codeclimate.com/github/react-material/react-material/badges/coverage.svg"> </a>
