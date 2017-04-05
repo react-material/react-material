@@ -1,0 +1,44 @@
+{
+  "name": "react-material",
+  "version": "0.1.0",
+  "description": "React Material Framework",
+  "main": "index.js",
+  "scripts": {
+    "savor": "react-savor",
+    "test": "react-savor test",
+    "lint": "react-savor lint",
+    "coverage": "react-savor coverage",
+    "coveralls": "react-savor coveralls",
+    "codacy": "react-savor codacy",
+    "codeclimate": "react-savor codeclimate",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "babel": {
+    "plugins": [
+      "transform-react-jsx"
+    ],
+    "presets": [
+      "react",
+      "es2015"
+    ]
+  },
+  "author": "I. Dan Calinescu <idancalinescu@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@material/checkbox": "^0.2.2",
+    "@material/form-field": "^0.2.1",
+    "@material/ripple": "^0.4.0",
+    "classnames": "^2.2.5",
+    "immutable": "^3.8.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "jsdom-global": "^2.1.1",
+    "react-router-dom": "^4.0.0",
+    "react-savor": "0.x",
+    "react-scripts": "0.x"
+  }
+}
