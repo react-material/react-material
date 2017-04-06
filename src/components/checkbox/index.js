@@ -1,5 +1,5 @@
-import React, {PureComponent, PropTypes} from 'react'
-import {Set as ImmutableSet, Map as ImmutableMap} from 'immutable'
+import React, { PureComponent, PropTypes } from 'react'
+import { Set as ImmutableSet, Map as ImmutableMap } from 'immutable'
 
 import {getCorrectEventName} from '@material/animation/dist/mdc.animation'
 import {MDCRipple, MDCRippleFoundation} from '@material/ripple/dist/mdc.ripple'
@@ -8,11 +8,11 @@ import {MDCCheckboxFoundation} from '@material/checkbox/dist/mdc.checkbox'
 function getMatchesProperty(HTMLElementPrototype) {
   return [
     'webkitMatchesSelector', 'msMatchesSelector', 'matches',
-  ].filter((p) => p in HTMLElementPrototype).pop();
+  ].filter((p) => p in HTMLElementPrototype).pop()
 }
 
-const {ANIM_END_EVENT_NAME} = MDCCheckboxFoundation.strings;
-const MATCHES = getMatchesProperty(HTMLElement.prototype);
+const { ANIM_END_EVENT_NAME}  = MDCCheckboxFoundation.strings
+const MATCHES = getMatchesProperty(HTMLElement.prototype)
 
 class Checkbox extends PureComponent {
   constructor(props) {

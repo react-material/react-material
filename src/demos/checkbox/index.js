@@ -1,8 +1,8 @@
 import React, { PureComponent, PropTypes } from 'react'
 
-import Checkbox from '../../checkbox'
-import CheckboxLabel from '../../checkbox/label'
-import FormField from '../../checkbox/field'
+import Checkbox from '../../components/checkbox'
+import CheckboxLabel from '../../components/checkbox/label'
+import FormField from '../../components/checkbox/field'
 
 export default class Demo extends PureComponent {
   constructor(props) {
