@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/react-material/react-material">
-  <img height="256" src="https://raw.githubusercontent.com/react-material/react-material/master/logo.png">
+  <img height="256" src="https://raw.githubusercontent.com/react-material/react-material/master/public/logo.png">
   </a>
   <h2 align="center"> The React Material Web Components Library
 </h2>

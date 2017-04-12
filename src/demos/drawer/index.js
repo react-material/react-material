@@ -16,13 +16,6 @@ export default class Demo extends PureComponent {
           <h1 className="mdc-typography--display1">Temporary Drawer</h1>
           <p className="mdc-typography--body1">Click the menu icon above to open.</p>
       </main>
-    );
-  }
-
-  status() {
-    if (this.state.indeterminate) {
-      return 'indeterminate';
-    }
-    return this.state.checked ? 'checked' : 'unchecked';
+    )
   }
 }
