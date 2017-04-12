@@ -1,6 +1,6 @@
 {
   "name": "reactmaterial",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "The React Material Web Components Library",
   "main": "index.js",
   "scripts": {

@@ -24,7 +24,7 @@ const Home = () => (
   <div style={ styles.home }>
     <h1 style={ styles.header }> React Material </h1>
     <p style={ styles.logo }> <img src="/logo.png" style={{width: 120}}/> </p>
-    <Link style={ styles.link } to="/web"> Web Components </Link>
+    <Link style={ styles.link } to="/web"> View Web Components </Link>
 
     <div className="badges">
       <a href="https://github.com/react-material/react-material"> <img src="https://img.shields.io/badge/react--material-web-blue.svg"/> </a>

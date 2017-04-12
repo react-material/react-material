@@ -18,6 +18,7 @@ export default class ReactMaterialIconDemo extends PureComponent {
     return (<div>
             <main>
               <h1> React Material Icon </h1>
+              <div className='code'> { 'import { Icon } from "reactmaterial"' } </div>
               <section>
 
                 <fieldset>
